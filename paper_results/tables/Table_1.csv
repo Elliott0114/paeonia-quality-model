@@ -1,0 +1,9 @@
+﻿Analyte (code),Observed/eligible samples,Eligible batches/complete triplets,Modeling status
+Gallic acid (GA),206/206,69/68,Eligible
+Oxypaeoniflorin (OPF),206/192,69/56,Eligible
+Catechin (CAT),161/142,67/17,Eligible
+Albiflorin (ALB),189/189,69/51,Eligible
+Paeoniflorin (PF),206/206,69/68,Eligible
+Galloylpaeoniflorin (GPF),202/192,68/56,Eligible
+Benzoylpaeoniflorin (BPF),206/206,69/68,Eligible
+"1,2,3,4,6-Pentagalloylglucose (PGG)",206/0,0/0,Excluded: no eligible observations

@@ -1,0 +1,31 @@
+# Computed outputs and private full-cohort inputs
+/outputs/
+/data/private/
+/models/
+
+# Local runtime files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.cache/
+.venv/
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local archives and credentials
+*.zip
+*.tar.gz
+.env
+.env.*
+
+# The supplied PNG/CSV/JSON example files are intentionally tracked.
+
+/r/renv/library/
+/r/renv/staging/

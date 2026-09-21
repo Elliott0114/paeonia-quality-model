@@ -1,0 +1,4 @@
+﻿Agreement across 10 OOF predictions,Samples,Observed ensemble accuracy,95% CI low,95% CI high
+<0.70,18,0.611,0.4000,0.8125
+0.70–0.89,24,0.625,0.4583,0.7917
+≥0.90,165,0.945,0.8938,0.9879

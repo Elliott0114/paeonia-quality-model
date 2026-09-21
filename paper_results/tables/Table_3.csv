@@ -1,0 +1,8 @@
+﻿Analyte,Samples / batches,OOF R² (95% CI),OOF ρ,"Joint error reduction, %",Joint BH q,Evidence profile,LOSO criterion met
+GA,206/69,0.172 (0.021–0.291),0.486,-2.8,0.663,No supported increment,No
+OPF,192/69,0.368 (0.198–0.503),0.621,18.4,0.022,Supported joint increment,No
+CAT,142/67,0.493 (0.320–0.617),0.668,35.5,<0.001,Supported joint increment,No
+ALB,189/69,0.315 (0.072–0.435),0.517,-1.2,0.663,Context-dependent increment,No
+PF,206/69,0.344 (0.230–0.449),0.625,-0.9,0.663,Context-dependent increment,No
+GPF,192/68,0.149 (-0.018–0.263),0.381,12.3,0.166,Context-dependent increment,No
+BPF,206/69,0.389 (0.226–0.517),0.634,18.0,0.049,Supported joint increment,No

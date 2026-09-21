@@ -1,0 +1,8 @@
+﻿Dropped analyte,Batches,"Baseline-MSE normalized reduction, %",Baseline-MSE 95% CI,Baseline-MSE sign-flip p,"Target-variance normalized reduction, %",Target-variance 95% CI,Target-variance sign-flip p
+GA,67,22.9,9.4 to 39.0,<0.001,21.0,9.1 to 35.2,<0.001
+OPF,67,16.9,5.7 to 30.3,0.002,15.7,6.3 to 27.4,<0.001
+CAT,68,13.9,2.9 to 26.8,0.008,12.6,3.6 to 23.4,0.003
+ALB,67,16.8,5.8 to 29.5,0.002,15.5,6.1 to 26.7,<0.001
+PF,67,23.1,9.5 to 38.3,<0.001,20.9,9.0 to 34.8,<0.001
+GPF,67,20.8,7.6 to 36.1,<0.001,19.5,8.2 to 32.9,<0.001
+BPF,67,19.2,7.4 to 32.8,<0.001,18.8,7.8 to 31.4,<0.001

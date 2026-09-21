@@ -1,0 +1,14 @@
+name: paeonia-quality-model
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=2.3.5
+  - pandas=2.3.3
+  - scipy=1.17.1
+  - scikit-learn=1.8.0
+  - pillow=12.1.1
+  - matplotlib=3.10.8
+  - joblib=1.5.3
+# Python versions used for the public example checks.
+# Optional R dependencies: r/renv.lock.

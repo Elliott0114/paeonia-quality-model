@@ -1,0 +1,4 @@
+﻿feature,value,source
+machine_average_area_cm2,0.67675,archived_machine_vision
+machine_short_axis_lt_0p8_pct,47.7,archived_machine_vision
+machine_abnormal_piece_pct,36.36364,archived_machine_vision

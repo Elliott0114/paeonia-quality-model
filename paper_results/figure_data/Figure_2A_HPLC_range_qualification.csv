@@ -1,0 +1,9 @@
+﻿compound_cn,n_total,n_observed,n_strict_retained_range,n_full_range,n_strict_batches,n_complete_strict_triplets,quantitative_modeling_status,compound,short,plot_order
+没食子酸,207,206,206,206,69,68,ELIGIBLE_SEVEN_ENDPOINT_FAMILY,Gallic acid,GA,1
+氧化芍药苷,207,206,192,204,69,56,ELIGIBLE_SEVEN_ENDPOINT_FAMILY,Oxypaeoniflorin,OPF,2
+儿茶素,207,161,142,159,67,17,ELIGIBLE_SEVEN_ENDPOINT_FAMILY,Catechin,CAT,3
+芍药内酯苷,207,189,189,189,69,51,ELIGIBLE_SEVEN_ENDPOINT_FAMILY,Albiflorin,ALB,4
+芍药苷,207,206,206,206,69,68,ELIGIBLE_SEVEN_ENDPOINT_FAMILY,Paeoniflorin,PF,5
+没食子酰芍药苷,207,202,192,192,68,56,ELIGIBLE_SEVEN_ENDPOINT_FAMILY,Galloylpaeoniflorin,GPF,6
+苯甲酰芍药苷,207,206,206,206,69,68,ELIGIBLE_SEVEN_ENDPOINT_FAMILY,Benzoylpaeoniflorin,BPF,7
+没食子酰葡萄糖,207,206,0,18,0,0,EXCLUDED_NO_RETAINED_RANGE_OBSERVATIONS,"1,2,3,4,6-Pentagalloylglucose",PGG,8

@@ -1,0 +1,8 @@
+﻿Metric,Estimate (95% CI),n samples/batches
+Accuracy,0.879 (0.821–0.928),207/69
+Balanced accuracy,0.876 (0.817–0.929),207/69
+Macro-F1,0.878 (0.817–0.928),207/69
+Quadratic weighted κ,0.877 (0.807–0.928),207/69
+Grade 1 F1,0.881 (0.782–0.949),207/69
+Grade 2 F1,0.882 (0.813–0.933),207/69
+Grade 3 F1,0.872 (0.763–0.950),207/69

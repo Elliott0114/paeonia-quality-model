@@ -1,0 +1,17 @@
+﻿short,plot_order,denominator,n
+GA,1,Portions,206
+GA,1,Batches,69
+OPF,2,Portions,192
+OPF,2,Batches,69
+CAT,3,Portions,142
+CAT,3,Batches,67
+ALB,4,Portions,189
+ALB,4,Batches,69
+PF,5,Portions,206
+PF,5,Batches,69
+GPF,6,Portions,192
+GPF,6,Batches,68
+BPF,7,Portions,206
+BPF,7,Batches,69
+PGG,8,Portions,0
+PGG,8,Batches,0

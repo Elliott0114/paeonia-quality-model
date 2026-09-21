@@ -1,0 +1,9 @@
+﻿Comparison,Panel,Endpoints / batches / samples,"Error reduction, % (95% CI)",Holm-adjusted p
+Mean-only → HSI,7 analytes (primary),7/67/200,28.4 (17.4–40.5),<0.001
+Mean-only → HSI,"6, no CAT (post hoc)",6/68/203,25.0 (13.9–37.5),<0.001
+Domain → domain + HSI,7 analytes (primary),7/67/200,18.7 (7.1–32.4),0.002
+Domain → domain + HSI,"6, no CAT (post hoc)",6/68/203,13.9 (2.9–26.8),0.008
+Appearance → appearance + HSI,7 analytes (primary),7/67/200,18.4 (11.0–25.6),<0.001
+Appearance → appearance + HSI,"6, no CAT (post hoc)",6/68/203,13.0 (5.9–19.6),<0.001
+Domain + appearance → joint,7 analytes (primary),7/67/200,11.2 (2.6–20.4),0.015
+Domain + appearance → joint,"6, no CAT (post hoc)",6/68/203,7.4 (-1.8–17.1),0.066

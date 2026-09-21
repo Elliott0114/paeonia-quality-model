@@ -1,0 +1,25 @@
+{
+  "canonical_id": "SBS-01-G1",
+  "sample_number": 1,
+  "group_index": 1,
+  "hplc_sample_id": "B1S1",
+  "expert_appearance_grade": 3,
+  "session_code": "S7",
+  "sample_exposure_us": 4800.0,
+  "white_exposure_us": 4800.0,
+  "image_file": "visible.png",
+  "image_dimensions": [
+    5120,
+    3840
+  ],
+  "hsi_interpretation": "Vendor-exported ROI mean signal, not absolute reflectance.",
+  "hsi_export_band_count": 292,
+  "primary_band_count": 262,
+  "wavelength_min": 430.0,
+  "wavelength_max": 970.0,
+  "sg_window": 11,
+  "sg_polyorder": 2,
+  "max_image_side": 2048,
+  "min_component_area": 64,
+  "reference_values_role": "HPLC and expert grade are reference metadata, never inputs to the demonstration feature extraction."
+}

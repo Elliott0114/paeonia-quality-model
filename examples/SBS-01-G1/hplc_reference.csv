@@ -1,0 +1,9 @@
+﻿canonical_id,sample_number,group_index,session_code,hplc_calibration_group,compound,observed_mg_g,sample_concentration_mg_mL,retained_min_mg_mL,retained_max_mg_mL,full_min_mg_mL,full_max_mg_mL,strict_retained_range_eligible,full_range_eligible
+SBS-01-G1,1,1,S7,1,没食子酸,1.233014634651444,0.0246602926930288,0.003125,0.05,0.003125,0.2,True,True
+SBS-01-G1,1,1,S7,1,氧化芍药苷,1.5766480721921998,0.0315329614438439,0.00625,0.1,0.003125,0.2,True,True
+SBS-01-G1,1,1,S7,1,儿茶素,,,0.0009375,0.03,0.0009375,0.06,False,False
+SBS-01-G1,1,1,S7,1,芍药内酯苷,,,0.0125,0.8,0.0125,0.8,False,False
+SBS-01-G1,1,1,S7,1,芍药苷,25.58893068303036,0.5117786136606072,0.03125,1.0,0.03125,2.0,True,True
+SBS-01-G1,1,1,S7,1,没食子酰芍药苷,0.0,0.0,0.000625,0.04,0.000625,0.04,False,False
+SBS-01-G1,1,1,S7,1,没食子酰葡萄糖,14.001184149152532,0.2800236829830506,0.003125,0.1,0.003125,0.2,False,False
+SBS-01-G1,1,1,S7,1,苯甲酰芍药苷,0.7025427315297796,0.0140508546305955,0.0009375,0.06,0.0009375,0.06,True,True
