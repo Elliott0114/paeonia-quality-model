@@ -1,0 +1,79 @@
+{
+  "release": "cm-v4-cnn-20261116",
+  "reference": "V4",
+  "targets": [
+    "GA",
+    "CAT",
+    "ALB",
+    "PF",
+    "GPF",
+    "BPF"
+  ],
+  "eligible_counts": [
+    206,
+    173,
+    207,
+    205,
+    199,
+    206
+  ],
+  "grabs": 207,
+  "production_batches": 69,
+  "split_file": "frozen_grouped_splits.json",
+  "outer_folds": 50,
+  "repeats": 10,
+  "inner_folds": 5,
+  "split_hash": "f02bf47612ed89ae78ee4fbd101f187f3b8e3be3ee8f06ff2c85baae8ac01580",
+  "wavelength_count": 262,
+  "models": [
+    "ridge_p0",
+    "ridge_dispersion",
+    "efficientnet_p0",
+    "mil_mean",
+    "mil_attention"
+  ],
+  "cnn": {
+    "outputs": 6,
+    "joint_training": true,
+    "epochs_max": 160,
+    "batch_size": 16,
+    "learning_rate": 0.002,
+    "weight_decay": 0.0001,
+    "optimizer": "AdamW fused=True",
+    "scheduler": "OneCycleLR full160 schedule prefix",
+    "dropout": 0.2,
+    "loss": "masked Huber delta1 divided by training observed endpoint fraction",
+    "epoch_selection": "mean of six endpoint losses, each pooled over the five inner validation folds; earliest tie",
+    "augmentation": {
+      "training_only": true,
+      "original_plus_copies": 6,
+      "scale_sd": 0.02,
+      "drift_sd": 0.0005,
+      "noise_sd": 0.0001,
+      "clip_augmented_min": 0,
+      "fixed_per_fit": true,
+      "region_coherent": true
+    },
+    "normalization": "training-original P0 band means/SD and training-observed target means/SD; population SD",
+    "seed_derivation": "seed_for from archived code; SHA256 of | joined (42,parts), first4 bytes little endian modulo2**31-1",
+    "device": "Apple MPS; original tested environment",
+    "regions": 8,
+    "embedding_dim": 48,
+    "head_dim": 64,
+    "attention": "48->16->1 tanh, final layer zero initialized, softmax(score+log(pixel_fraction))"
+  },
+  "ridge_alphas": [
+    0.01,
+    0.1,
+    1,
+    10,
+    100,
+    1000
+  ],
+  "ridge_selection": "pooled observed inner grab RMSE, strongest alpha on exact ties",
+  "no_session_predictor": true,
+  "no_LOSO": true,
+  "new_exclusions": false,
+  "uncertainty_arm": "Separate fixed160epoch and alpha1000, inner5 calibration; not the selected main models",
+  "packaging_validation": "No training, inference, new model selection or statistical resampling in this release task"
+}

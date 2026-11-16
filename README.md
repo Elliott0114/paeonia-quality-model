@@ -1,5 +1,13 @@
 # Paeonia quality model
 
+## Current Chinese Medicine manuscript — 16 November 2026
+
+The current code entry point is [CM V4 CNN and regional models](releases/cm-v4-cnn-20261116/). It accompanies **Complementary information from appearance grading and hyperspectral chemical profiling of Paeoniae Radix Alba** and contains the actual EfficientNet1D, regional mean/attention trainers, frozen configurations, environment records and explicit run commands. Matching processed inputs and source records are supplied in the manuscript's Additional file 2. No model was retrained for this code publication.
+
+The older examples and results below remain as a historical release. Their figures, seven-constituent and LOSO analyses must not be substituted for the current manuscript's V4 results.
+
+## Historical manuscript release
+
 Code and selected data accompanying **Disentangling appearance and multianalyte chemistry in Paeoniae Radix Alba decoction pieces using visible and hyperspectral imaging**.
 
 This repository provides a **single real sample, final manuscript summary results, and the core analysis methods**. The study comprised 207 samples from 69 production batches. The full image/spectral collection, individual-level cohort tables and trained models are not distributed; full-cohort reproduction is therefore outside this release's scope.

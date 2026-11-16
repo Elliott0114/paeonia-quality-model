@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "all_state_tensors_bitwise_identical": true,
+  "all_epoch_loss_and_lr_values_identical": true,
+  "real_pilot_outer_epochs": 8,
+  "real_pilot_outer_train_n": 165,
+  "original_seconds": 4.347771292028483,
+  "prepermuted_seconds": 2.3218288749922067,
+  "throughput_ratio": 1.8725631931177857,
+  "max_state_abs_difference": 0.0,
+  "generated_fit_sha256": "56259ccb070890d29b5ea3617b92dafc2a1b462644a21c98b6ac981962e7aac9",
+  "execution_script_sha256": "ffd6a8382f2940417947096b8729406d62779e117ab21fcfc7d01c528c9e3a61",
+  "evaluation_predictions_not_used_for_choice": true
+}

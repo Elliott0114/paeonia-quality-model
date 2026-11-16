@@ -1,0 +1,222 @@
+{
+  "source_commit": "e7c99fca411086b440c506c5a1ec64e487895114",
+  "files_and_functions": [
+    {
+      "destination": "network.py",
+      "source": "experiments/efficientnet_v4_grouped_20261026/network.py",
+      "source_sha256": "03608df51c38a0694f337ee0a4366122fa19c243c2ba7eed61576acdf6f582d9",
+      "mode": "byte_identical"
+    },
+    {
+      "destination": "backbones.py",
+      "source": "experiments/model_search_v4_grouped_20261028/backbones.py",
+      "source_sha256": "3c41a0e78411cacc9bc237a0c0572a1d281637a6c008713d0a1a35e81c2c0ec4",
+      "mode": "byte_identical"
+    },
+    {
+      "destination": "roi_network.py",
+      "source": "experiments/multiview_roi_v4_20261106/roi_network.py",
+      "source_sha256": "3462a8967a0dcfd0216400ec2fd8ee43342492ae5b67bf1527f0fde460211105",
+      "mode": "byte_identical"
+    },
+    {
+      "destination": "roi_training.py",
+      "source": "experiments/multiview_roi_v4_20261106/roi_training.py",
+      "source_sha256": "4752aef6dd0ba9f752d5473f4bf800a8e247a74454faa22544f2a743a458d40e",
+      "mode": "byte_identical"
+    },
+    {
+      "destination": "provenance/ORIGINAL_PROTOCOL.md",
+      "source": "experiments/multiview_roi_v4_20261106/PROTOCOL.md",
+      "source_sha256": "8afaf1bf66a006bc6fdfdfb8ca04f1cfb28e803c0a36b714d2b39f569d78e592",
+      "mode": "byte_identical"
+    },
+    {
+      "destination": "requirements.lock",
+      "source": "archived_results/efficientnet_v4_grouped_20261026/environment.txt",
+      "source_sha256": "c6e42bc06250a524d9e3482aa75a2c93e8f187241a87482497dcab548b9887eb",
+      "mode": "byte_identical"
+    },
+    {
+      "destination": "base.py",
+      "symbol": "now",
+      "source": "experiments/efficientnet_v4_grouped_20261026/run.py",
+      "source_sha256": "46f8d1aa83f357e51748db91397b94be6055cf82e33fe869677b33c30e62d77e",
+      "mode": "function_text_identical",
+      "function_sha256": "f34344d0eeb6b443b60f2d70aacc4d33844254b0d6829e57abf992dca6415ca2"
+    },
+    {
+      "destination": "base.py",
+      "symbol": "dump",
+      "source": "experiments/efficientnet_v4_grouped_20261026/run.py",
+      "source_sha256": "46f8d1aa83f357e51748db91397b94be6055cf82e33fe869677b33c30e62d77e",
+      "mode": "function_text_identical",
+      "function_sha256": "06b4a0d90abfc240b007d6a80ac429d6973a9753e3a35eed142f47b402e5104e"
+    },
+    {
+      "destination": "base.py",
+      "symbol": "seed_for",
+      "source": "experiments/efficientnet_v4_grouped_20261026/run.py",
+      "source_sha256": "46f8d1aa83f357e51748db91397b94be6055cf82e33fe869677b33c30e62d77e",
+      "mode": "function_text_identical",
+      "function_sha256": "b4adfd700e4d960730c2b2cac6003c0c9e6ad93070c577d7931e168a89e287f9"
+    },
+    {
+      "destination": "base.py",
+      "symbol": "setup",
+      "source": "experiments/efficientnet_v4_grouped_20261026/run.py",
+      "source_sha256": "46f8d1aa83f357e51748db91397b94be6055cf82e33fe869677b33c30e62d77e",
+      "mode": "function_text_identical",
+      "function_sha256": "b5514f3cd016e59bc3fd24c4cc1a5c056fd2359645822b41da41305a263556d8"
+    },
+    {
+      "destination": "base.py",
+      "symbol": "normalization",
+      "source": "experiments/efficientnet_v4_grouped_20261026/run.py",
+      "source_sha256": "46f8d1aa83f357e51748db91397b94be6055cf82e33fe869677b33c30e62d77e",
+      "mode": "function_text_identical",
+      "function_sha256": "69be56022ded7aa398becd572f3b988f69ad28d472098b0e525b8bec770d9fed"
+    },
+    {
+      "destination": "base.py",
+      "symbol": "augment",
+      "source": "experiments/efficientnet_v4_grouped_20261026/run.py",
+      "source_sha256": "46f8d1aa83f357e51748db91397b94be6055cf82e33fe869677b33c30e62d77e",
+      "mode": "function_text_identical",
+      "function_sha256": "0f0333eafd9f7734071992ce43f78363625b8cc85ed598adf6f08a467e4cffcb"
+    },
+    {
+      "destination": "base.py",
+      "symbol": "masked_huber",
+      "source": "experiments/efficientnet_v4_grouped_20261026/run.py",
+      "source_sha256": "46f8d1aa83f357e51748db91397b94be6055cf82e33fe869677b33c30e62d77e",
+      "mode": "function_text_identical",
+      "function_sha256": "7dd671ebbc3f66949d5b3edbe693dd46864a4c01aea85faea46b6d5736615d0b"
+    },
+    {
+      "destination": "base.py",
+      "symbol": "predict",
+      "source": "experiments/efficientnet_v4_grouped_20261026/run.py",
+      "source_sha256": "46f8d1aa83f357e51748db91397b94be6055cf82e33fe869677b33c30e62d77e",
+      "mode": "function_text_identical",
+      "function_sha256": "55a577694a1675d45abe5a7b92a0e0b5b170ece4114b8f52ec620eb14e430dc6"
+    },
+    {
+      "destination": "base.py",
+      "symbol": "verify_completed",
+      "source": "experiments/efficientnet_v4_grouped_20261026/run.py",
+      "source_sha256": "46f8d1aa83f357e51748db91397b94be6055cf82e33fe869677b33c30e62d77e",
+      "mode": "function_text_identical",
+      "function_sha256": "578e3ce9470b732dfc9dac064203f3e55f70a380631c1b50680f23b924a0ee48"
+    },
+    {
+      "destination": "base.py",
+      "symbol": "fit",
+      "source": "experiments/efficientnet_v4_grouped_20261026/run.py",
+      "source_sha256": "46f8d1aa83f357e51748db91397b94be6055cf82e33fe869677b33c30e62d77e",
+      "mode": "function_text_identical",
+      "function_sha256": "878b4b3302916b609ed05080c090825add318e558b50af5d8a21e336d66ea9d8"
+    },
+    {
+      "destination": "base.py",
+      "symbol": "run_outer",
+      "source": "experiments/efficientnet_v4_grouped_20261026/run.py",
+      "source_sha256": "46f8d1aa83f357e51748db91397b94be6055cf82e33fe869677b33c30e62d77e",
+      "mode": "function_text_identical",
+      "function_sha256": "5654b5e006aa437512ca0389cb08b540f3af855805b0281522ff2d207c6c6745"
+    },
+    {
+      "destination": "fit_prepermuted.py",
+      "source": "archived_results/efficientnet_v4_grouped_20261026/code/fit_prepermuted.py",
+      "source_sha256": "56259ccb070890d29b5ea3617b92dafc2a1b462644a21c98b6ac981962e7aac9",
+      "mode": "byte_identical"
+    },
+    {
+      "destination": "provenance/existing_execution_equivalence.json",
+      "source": "archived_results/efficientnet_v4_grouped_20261026/pilot/execution_equivalence.json",
+      "source_sha256": "c0e240fbc223916780a9437da99a29c0d782b79d83418f65cee597c98376e1ad",
+      "mode": "byte_identical"
+    },
+    {
+      "destination": "region_runner.py",
+      "symbol": "folder",
+      "source": "experiments/multiview_roi_v4_20261106/runner.py",
+      "source_sha256": "41f6db836e20f5d51501570f16dd0db6d7da3828f7fca0044cba7aa1c2ed46f5",
+      "mode": "function_text_identical",
+      "function_sha256": "82db51e74a1c75a28f007a05d40ce45c5a80ce5d7e7d6589bd51fe989499ad6a"
+    },
+    {
+      "destination": "region_runner.py",
+      "symbol": "prediction_rows",
+      "source": "experiments/multiview_roi_v4_20261106/runner.py",
+      "source_sha256": "41f6db836e20f5d51501570f16dd0db6d7da3828f7fca0044cba7aa1c2ed46f5",
+      "mode": "function_text_identical",
+      "function_sha256": "5aeab3996e2f5f16eef112583a6a8a19d942de7a93fee02a8ae9382a7310fd07"
+    },
+    {
+      "destination": "region_runner.py",
+      "symbol": "new_inner",
+      "source": "experiments/multiview_roi_v4_20261106/runner.py",
+      "source_sha256": "41f6db836e20f5d51501570f16dd0db6d7da3828f7fca0044cba7aa1c2ed46f5",
+      "mode": "function_text_identical",
+      "function_sha256": "66a9310f21878bd65a09627c83c4f8c183e55480cc11f53d18dc70acb218407b"
+    },
+    {
+      "destination": "region_runner.py",
+      "symbol": "new_outer",
+      "source": "experiments/multiview_roi_v4_20261106/runner.py",
+      "source_sha256": "41f6db836e20f5d51501570f16dd0db6d7da3828f7fca0044cba7aa1c2ed46f5",
+      "mode": "function_text_identical",
+      "function_sha256": "4edcc0e6f3e8735c653aab3d77786861350a881fc6dcea3514dcf95bebd81fe2"
+    },
+    {
+      "destination": "region_partition.py",
+      "symbol": "partition",
+      "source": "experiments/multiview_roi_v4_20261106/extract_regions.py",
+      "source_sha256": "68e8485b00463271c79032a4c925239668cbc8c0e1b25699c52c7ee18c4da9c0",
+      "mode": "function_text_identical",
+      "function_sha256": "b52076ecc2fb6b4825e32646f061d75b42dfe1e123c6c8048fa9f489a7c8b532"
+    },
+    {
+      "destination": "ridge.py",
+      "symbol": "encode_domains",
+      "source": "paeonia/chemical.py",
+      "source_sha256": "160b447b081d723d4b2d865b6f36d789bf4ee9b3d9e25fc2610353e0a2eac5c8",
+      "mode": "function_text_identical",
+      "function_sha256": "192c5a9b519ffc0cb13bc133c20fb820cbbe216d702782993624069ff42eaa7d"
+    },
+    {
+      "destination": "ridge.py",
+      "symbol": "fit_predict_model",
+      "source": "paeonia/chemical.py",
+      "source_sha256": "160b447b081d723d4b2d865b6f36d789bf4ee9b3d9e25fc2610353e0a2eac5c8",
+      "mode": "function_text_identical",
+      "function_sha256": "e313577a35142869566dba216db8a0328f28d0cd6ef9d5c5f2843b7fcf117821"
+    },
+    {
+      "destination": "ridge.py",
+      "symbol": "select_alpha",
+      "source": "paeonia/chemical.py",
+      "source_sha256": "160b447b081d723d4b2d865b6f36d789bf4ee9b3d9e25fc2610353e0a2eac5c8",
+      "mode": "function_text_identical",
+      "function_sha256": "dc4f1cbe80e6b6c16020dfddf53fc384b6f7c5bd0eed394c246fc5f72f490827"
+    },
+    {
+      "destination": "storage.py",
+      "symbol": "write_csv",
+      "source": "paeonia/v3_workflow.py",
+      "source_sha256": "72ec3830855cd9f5aa4b7642a5ac6fdb12467fc786179ce303f4ddd3607355d7",
+      "mode": "function_text_identical",
+      "function_sha256": "acfffcbba01a770b92cb21dc18ee979c1474ecdd9139f6285bf06a4eab89ec96"
+    },
+    {
+      "destination": "storage.py",
+      "symbol": "read_csv",
+      "source": "paeonia/v3_workflow.py",
+      "source_sha256": "72ec3830855cd9f5aa4b7642a5ac6fdb12467fc786179ce303f4ddd3607355d7",
+      "mode": "function_text_identical",
+      "function_sha256": "d06b9c35cd36658dfb790dccd8d8a217083116be9f16a435aa9a6189f1308bce"
+    }
+  ],
+  "adapters": "common.py, storage.py I/O binding, run.py CLI and input validation. Scientific functions retained verbatim. No new predictions or fits."
+}
